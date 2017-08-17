@@ -1,6 +1,12 @@
 <?php
+/*
+ author ccgauche
+ version: 1.1.0203 Beta
+ build: B-002-203
+*/
 //Your admin password Change it
-function adminKey() {	return "DefaultPassWord";
+function adminKey() {
+	return "DefaultPassWord";
 }
 //8 caracters max
 function getMasterKey() {
@@ -26,4 +32,9 @@ function getExistsKey() {
 function getPutKey() {
 	return array("all-SmaP76S4lOqsx5k");
 }
-?>
+?>
+
+
+
+
+
