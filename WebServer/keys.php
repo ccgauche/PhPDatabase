@@ -1,24 +1,19 @@
 <?php
-/*
- author ccgauche
- version: 1.1.0203 Beta
- build: B-002-203
-*/
 //Your admin password Change it
-function adminKey() {
-	return "DefaultPassWord";
+function adminKey() {	return "DefaultPassWord";
 }
 //8 caracters max
-function getMasterKey() {
-	return "Ta25Pam1";
+function getMasterKey() {	return "Mw4tY3Ki";
 }
 //8 caracters max
-function getCriptKey() {
-	return "LAms7Pem";
+function getCriptKey() {	return "dA9Leo4S";
+}
+
+function getHashAlgorithm() {
+	return "md5";
 }
 //Change It
-function getHashKey() {
-	return "QmapSJe752LAspQ82de";
+function getHashKey() {	return "QmapSJe752LAspQ82d";
 }
 //All apikeys change it
 function getGetKey() {
@@ -32,9 +27,4 @@ function getExistsKey() {
 function getPutKey() {
 	return array("all-SmaP76S4lOqsx5k");
 }
-?>
-
-
-
-
-
+?>

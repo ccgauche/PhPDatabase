@@ -6,6 +6,21 @@ function getSLignes($data) {
 	return explode("\r", file_get_contents($data));
 }
 
+function getKeysBy($method) {
+	$db = false;
+	foreach (getSLignes("keys.php") as $token) {
+		$token=$token."\r";
+		if (!$db) {
+			if (contains($token,"function get".$method."Key() {")) {
+				$db=true;
+			}
+		} else {
+			return explode(")",explode("(",$token)[1])[0];
+		}
+	}
+	return "can't find ".$method;
+}
+
 function getKeys($method) {
 	$db = false;
 	foreach (getSLignes("keys.php") as $token) {
@@ -100,6 +115,9 @@ function getKey($aquerier) {
 	}
 }
 
+if (!isset($_GET['type'])) {
+	return;
+}
 $type = htmlspecialchars($_GET['type']);
 $apikey = htmlspecialchars($_GET['apikey']);
 $executor = htmlspecialchars($_GET['executor']);
