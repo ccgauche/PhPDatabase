@@ -28,3 +28,4 @@ https://www.dropbox.com/s/kzc7aqtmmo3tj01/Scratch.jar?dl=0
 https://www.dropbox.com/s/o9csk5ek33ea2g8/GameAPI.zip?dl=0
 https://www.dropbox.com/s/l3tlyq8yinc975e/App1.jar?dl=0
 https://www.dropbox.com/s/rsko0xz1wx6qoar/Le%20jeu%20du%20fantome.zip?dl=0
+https://www.dropbox.com/s/92rvlrdde1sgg82/SaphirMine.zip?dl=0
