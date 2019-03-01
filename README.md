@@ -22,12 +22,3 @@ DataBase javaAPI:
 </code>
 
 Your can use the GET request system
-https://www.dropbox.com/s/hzuy379lf1k1frz/Saphir.zip?dl=0
-https://www.dropbox.com/s/25fvtf0i93xafik/Chronophotographieur.jar?dl=0
-https://www.dropbox.com/s/kzc7aqtmmo3tj01/Scratch.jar?dl=0
-https://www.dropbox.com/s/o9csk5ek33ea2g8/GameAPI.zip?dl=0
-https://www.dropbox.com/s/l3tlyq8yinc975e/App1.jar?dl=0
-https://www.dropbox.com/s/rsko0xz1wx6qoar/Le%20jeu%20du%20fantome.zip?dl=0
-https://www.dropbox.com/s/92rvlrdde1sgg82/SaphirMine.zip?dl=0
-https://www.dropbox.com/s/35xf44xi09n0buh/Creamy.zip?dl=0
-https://www.dropbox.com/s/alxxp2dzimcb9jf/testkl.jar?dl=0
